@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T15:30:16.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="cvphfxPpjo9zrTaWQomB" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-10T16:19:52.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="AisRfP1Szi0hbSimUej6" version="16.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="982" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -111,11 +111,11 @@
           <mxGeometry x="279.9980952380952" y="244" as="geometry" />
         </mxCell>
         <mxCell id="ZdqD8W42f5DomcY0xcy--16" value="LandingPage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="5" width="140" height="182" as="geometry">
+          <mxGeometry x="360" y="5" width="140" height="234" as="geometry">
             <mxRectangle x="360" y="10" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZdqD8W42f5DomcY0xcy--17" value="+ Status: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZdqD8W42f5DomcY0xcy--16">
+        <mxCell id="ZdqD8W42f5DomcY0xcy--17" value="+ Status: enum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZdqD8W42f5DomcY0xcy--16">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZdqD8W42f5DomcY0xcy--18" value="+ Title: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZdqD8W42f5DomcY0xcy--16">
@@ -132,6 +132,12 @@
         </mxCell>
         <mxCell id="ZdqD8W42f5DomcY0xcy--32" value="+ Sections: List&lt;Section&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZdqD8W42f5DomcY0xcy--16">
           <mxGeometry y="156" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdqD8W42f5DomcY0xcy--43" value="+ Url: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZdqD8W42f5DomcY0xcy--16">
+          <mxGeometry y="182" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdqD8W42f5DomcY0xcy--44" value="+ ProjectName: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZdqD8W42f5DomcY0xcy--16">
+          <mxGeometry y="208" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ZdqD8W42f5DomcY0xcy--30" value="&lt;font style=&quot;font-size: 8px&quot;&gt;Tagg could be also separate entity in case we want to use them for hints on UI&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="530" y="131" width="170" height="30" as="geometry" />
